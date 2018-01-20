@@ -37,6 +37,8 @@ jar {
 }
 
 dependencies {
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.6.1'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.6.1'
     compile 'com.google.guava:guava:18.0',
             'com.fasterxml.jackson.core:jackson-databind',
             'com.fasterxml.jackson.core:jackson-core',
